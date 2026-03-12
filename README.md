@@ -1,5 +1,6 @@
-# Landing 🚀
+Landing 🚀
+I built this project as a blend of clean code and a smooth user experience. My choice of tools was purely pragmatic: Next.js and TypeScript provide the stability needed to avoid debugging "magic" in unexpected places. SCSS allowed for concise styling without unnecessary bloat, while React Hook Form handled the heavy lifting of quiz validation.
 
-Why these tools? Because I want things to work, look good, and not make me cry. Next.js and TypeScript are here so I don’t accidentally break the internet. SCSS is for when I want my styles to feel fancy, but not too fancy. React Hook Form and Yup? They keep my quiz from turning into a circus. Everything’s in `src` because, well, that’s where stuff goes now. 
+This is an interactive landing page where every step flows logically from the last. Beyond the visuals, I focused on the underlying logic: the system validates user input (ensuring target weight makes sense, for instance) and accurately tracks time spent on the page. All data is reliably stored on the server.
 
-This is a landing page with a quiz, a timer, and a place to stash your answers. If it works—awesome. If not, at least the README made you smile. 😏
+I aimed to match the design closely while ensuring full responsiveness across all devices. I hope the code speaks for my approach, and if not — at least this README didn't bore you. 😏
