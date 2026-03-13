@@ -20,7 +20,7 @@ export default function Steps() {
         <div className={styles.stepTextRight}>
           <div className={styles.stepTitle}><b>1. Distractions disappear often within just one or two basic days</b></div>
           <div className={styles.stepDesc}>
-            Studies show that reading books regularly reduces feelings of loneliness and lowers the risk of depression. Just a few pages a day can make a real difference.
+            Studies show that using face patches regularly reduces signs of fatigue and helps revitalize your skin. Just a few minutes a day can make a real difference.
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function Steps() {
         <div className={styles.stepTextLeft}>
           <div className={styles.stepTitle}><b>2. Paragraph control is effortless</b></div>
           <div className={styles.stepDesc}>
-            Engaging with books helps improve focus and emotional balance, making it easier to manage stress and enjoy everyday moments.
+            Using face patches helps restore skin balance and freshness, making it easier to feel confident and enjoy every day with a healthy glow.
           </div>
         </div>
         <div className={styles.stepImageRight}>
