@@ -7,26 +7,25 @@
 }
 
 .heroContent {
-  width: 100%;
+  width: 90%;
   max-width: 600px;
-  padding: 0 16px;
+  // padding: 0 16px;
   margin-bottom: 24px;
 }
 
 .title {
   font-size: 2rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  font-weight: 600;
+  text-align: justify;
+  justify-content: center;
+  letter-spacing: 1px;
 }
 
-@media (min-width: 768px) {
-  .title {
-    font-size: 2.8rem;
-  }
-  .heroContent {
-    padding: 0 32px;
-  }
-}
+// @media (min-width: 768px) {
+//   .title {
+//     font-size: 2.8rem;
+//   }
+//   .heroContent {
+//     padding: 0 32px;
+//   }
+// }

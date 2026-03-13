@@ -6,7 +6,7 @@ export default function Hero() {
     <section className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.title}>
-          10 REASONS WHY PEOPLE CHOOSE THESE NATURAL ELEMENTS ALONGSIDE PLACEHOLDERS $1000/MONTH
+          10 reasons why people CHOOSE NATURAL ELEMENTS placeholders $1000/month
         </h1>         
       </div>
      <Testimonial />

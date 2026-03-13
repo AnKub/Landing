@@ -1,7 +1,7 @@
 .faqSection {
   width: 100%;
   padding: 36px 0 32px 0;
-  background: #fff;
+   background: #e3f2fd;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,15 +26,16 @@
   align-items: center;
   justify-content: center;
   min-width: 0;
-  background: #e3f2fd;
+  // background: #e3f2fd;
 }
 
 .img {
   width: 100%;
-  height: auto;
+  // height: auto;
   object-fit: cover;
-  border-radius: 0;
+  border-radius: 5%;
   max-width: 320px;
+  max-height: 320px;
 }
 
 .faqContent {

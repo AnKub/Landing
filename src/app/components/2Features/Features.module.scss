@@ -1,3 +1,7 @@
+.featuresTable th:nth-child(2) {
+  background: #e3f2fd;
+}
+
 .featuresSection {
   width: 100%;
   padding: 32px 0;
@@ -29,7 +33,6 @@
 }
 
 .featuresTable th {
-  background: #e3f2fd;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -39,6 +42,11 @@
   text-align: left;
   font-weight: 600;
   color: #263238;
+}
+
+
+.featuresTable td:nth-child(2) {
+  background: #e3f2fd;
 }
 
 .icon {
@@ -72,31 +80,22 @@
   background: #f44336;
   position: relative;
 }
+.iconCross::before,
 .iconCross::after {
   content: '';
-  display: block;
   position: absolute;
-  left: 4.5px;
-  top: 4.5px;
-  width: 9px;
-  height: 9px;
+  left: 8px;
+  top: 4px;
+  width: 2px;
+  height: 10px;
+  background: #fff;
   border-radius: 1px;
-  border-left: 2.5px solid #fff;
-  border-bottom: 2.5px solid #fff;
-  transform: rotate(-45deg);
 }
 .iconCross::before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 4.5px;
-  top: 4.5px;
-  width: 9px;
-  height: 9px;
-  border-radius: 1px;
-  border-left: 2.5px solid #fff;
-  border-bottom: 2.5px solid #fff;
   transform: rotate(45deg);
+}
+.iconCross::after {
+  transform: rotate(-45deg);
 }
 
 @media (max-width: 600px) {
