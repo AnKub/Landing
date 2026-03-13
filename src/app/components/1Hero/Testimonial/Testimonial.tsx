@@ -6,7 +6,7 @@ export default function Testimonial() {
       <div className={styles.avatarBlock}>
         <img
           className={styles.avatar}
-          src="/images/ava-user.png"
+          src="/images/ava-user.webp"
           alt="User avatar"
         />
       </div>
