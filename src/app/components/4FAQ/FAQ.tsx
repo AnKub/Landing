@@ -1,3 +1,4 @@
+"use client";
 import styles from './FAQ.module.scss';
 import Image from 'next/image';
 import { useState } from 'react';

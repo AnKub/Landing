@@ -7,9 +7,9 @@ export default function Hero() {
       <div className={styles.heroContent}>
         <h1 className={styles.title}>
           10 REASONS WHY PEOPLE CHOOSE THESE NATURAL ELEMENTS ALONGSIDE PLACEHOLDERS $1000/MONTH
-        </h1>
+        </h1>         
       </div>
-      <Testimonial />
+     <Testimonial />
     </section>
   );
 }

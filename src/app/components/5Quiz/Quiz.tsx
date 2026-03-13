@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from 'react';
 import quizData from './quizData';
 import styles from './Quiz.module.scss';
