@@ -108,7 +108,7 @@ export default function Quiz() {
         <div className={styles.quizBox}>
           {sending && 'Sending your results...'}
           {errorMsg && <div className={styles.error}>{errorMsg}</div>}
-          {sent && !sending && !errorMsg && 'Thank you for completing the quiz!'}
+          {sent && !sending && !errorMsg && 'Success! 🤗'}
         </div>
       </div>
     );
