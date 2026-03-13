@@ -1,36 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from "./components/1Hero/Hero";
+import Features from "./components/2Features/Features";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          return (
-            <main>
-              {/* Landing page content will go here */}
-            </main>
-          );
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <Hero />
+      <Features />
+      {/* бла бла  */}
+    </>
   );
 }

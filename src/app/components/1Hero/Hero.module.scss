@@ -1,0 +1,32 @@
+.hero {
+  background: #fff;
+  padding: 32px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 16px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.8rem;
+  }
+  .heroContent {
+    padding: 0 32px;
+  }
+}
