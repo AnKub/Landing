@@ -25,9 +25,15 @@ export default function Modal({ open, onClose }: ModalProps) {
       onClose();
     }, 2000);
   };
+// це для закриття модалки якщо клацнуть за межами модалки
+  const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
 
   return (
-    <div className={styles.overlay}>
+    <div className={styles.overlay} onClick={handleOverlayClick}>
       <div className={styles.modal}>
         <button className={styles.closeBtn} onClick={onClose}>&times;</button>
         {!submitted ? (

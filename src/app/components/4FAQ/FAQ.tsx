@@ -20,7 +20,7 @@ export default function FAQ() {
         </div>
         <div className={styles.faqContent}>
           <div className={styles.specialOffer}>SPECIAL OFFERS</div>
-          <div className={styles.boldLine}>Try out the generic placeholder now!</div>
+          <div className={styles.boldLine}>Try out the generic <br/> placeholder now!</div>
           <div className={styles.summerDeals}>SUMMER DEALS</div>
           <div className={styles.desc}>
             Noticeable effect even on normal skin — see the difference after just one use!

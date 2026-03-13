@@ -14,16 +14,16 @@ export default function About() {
           <Image
             src="/images/about-portrait.webp"
             alt="Company founder portrait"
-            width={180}
-            height={260}
+            width={380}
+            height={460}
             className={styles.img}
           />
         </div>
         <div className={styles.aboutContent}>
           <div className={styles.title}>About Us</div>
           <div className={styles.text}>
-            Our mission is to help people feel confident and healthy every day. We believe in the power of natural ingredients and innovative skincare solutions.
-          </div>
+        Our mission is to help people feel confident and healthy every day. We believe in the power of natural ingredients and innovative skincare solutions. By combining science and nature, we strive to deliver products that truly make a difference. 
+        <br/>Our commitment is to empower individuals to embrace their unique beauty, support their well-being, and inspire positive change in their daily lives.</div>
           <ul className={styles.list}>
             <li><span className={styles.check}></span> Dermatologist approved formulas</li>
             <li><span className={styles.check}></span> Visible results after first use</li>

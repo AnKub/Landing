@@ -44,18 +44,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 32px 18px 24px 18px;
+  padding: 24px 18px;
   background: #fff;
   min-width: 0;
 }
 
 .specialOffer {
   background: #ffe4ec;
-  color: #c2185b;
-  font-size: 1.1rem;
-  font-weight: 500;
+  // color: #c2185b;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   padding: 6px 18px;
-  border-radius: 8px;
+  border-radius: 5%;
   margin-bottom: 14px;
   text-align: center;
 }
@@ -70,8 +71,8 @@
 
 .summerDeals {
   color: #2196f3;
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: 700;
   margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.04em;
@@ -85,13 +86,14 @@
 }
 
 .ctaButton {
-  background: linear-gradient(180deg, #fff 0%, #ffe4ec 100%);
-  color: #c2185b;
-  font-size: 1.1rem;
+  background: linear-gradient(180deg, #fff 0%, #fc6391 100%);
+  // color: #c2185b;
+  font-size: 1.2rem;
   font-weight: 700;
-  padding: 12px 32px;
+  letter-spacing: 0.04em; 
+  padding: 18px 36px;
   border: none;
-  border-radius: 10%;
+ border-radius: 5%;
   cursor: pointer;
   margin-bottom: 10px;
   box-shadow: 0 2px 8px rgba(80, 180, 255, 0.04);
@@ -104,7 +106,7 @@
   transform: translateY(-2px) scale(1.03);
 }
 .ctaButton:active {
-  background: #ffd6e6;
+  background: #895a6c;
   box-shadow: 0 2px 8px rgba(194, 24, 91, 0.08);
   transform: scale(0.98);
 }

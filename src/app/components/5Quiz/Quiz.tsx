@@ -117,8 +117,9 @@ export default function Quiz() {
   return (
     <div className={styles.quizSection}>
       <div className={styles.quizBox}>
+  
+        <div className={styles.question}>{current.question}</div>      
         <div className={styles.progress}>Step {step + 1} of {quizData.length}</div>
-        <div className={styles.question}>{current.question}</div>
         {current.type === 'select' && current.options && (
           <div className={styles.options}>
             {(current.options as string[]).map((option: string) => (
