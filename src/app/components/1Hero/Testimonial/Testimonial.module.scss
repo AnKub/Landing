@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: flex-start;
   width: 100%;
+  min-height: 200px;
   max-width: 600px;
   margin: 0 auto 24px auto;
   padding: 16px;
@@ -65,6 +66,27 @@
     width: 48px;
     height: 48px;
   }
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  justify-content: flex-end;
+}
+.controls button {
+  background: #e3f2fd;
+  border: none;
+  border-radius: 6px;
+  color: #1976d2;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.controls button:hover {
+  background: #b3e5fc;
 }
 
 // @media (min-width: 1024px) {
