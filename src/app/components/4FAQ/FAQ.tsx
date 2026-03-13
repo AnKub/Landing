@@ -1,7 +1,7 @@
 import styles from './FAQ.module.scss';
 import Image from 'next/image';
 import { useState } from 'react';
-import Modal from './Modal/Modal';
+import Modal from '../Modal/Modal';
 
 export default function FAQ() {
   const [open, setOpen] = useState(false);
