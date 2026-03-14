@@ -2,11 +2,28 @@
 
 import styles from './About.module.scss';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Modal from '../Modal/Modal';
 
 export default function About() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(24 * 60 * 60); 
+
+  useEffect(() => {
+    if (timeLeft <= 0) return;
+    const interval = setInterval(() => {
+      setTimeLeft((prev) => (prev > 0 ? prev - 1 : 0));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [timeLeft]);
+
+  // показувати що часу для покупки за акційною ціною залишилося мало))
+  const formatTime = (seconds: number) => {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+    return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  };
   return (
     <section className={styles.aboutSection}>
       <div className={styles.aboutBlock}>
@@ -33,7 +50,7 @@ export default function About() {
           <div className={styles.buttonBlock}>
             <button className={styles.ctaButton} onClick={() => setModalOpen(true)}>
               Claim your custom discount<br />
-              <span className={styles.limited}>Limited time</span>
+              <span className={styles.limited}>{formatTime(timeLeft)}</span>
             </button>
           </div>
         </div>
