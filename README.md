@@ -15,4 +15,5 @@ This is an interactive landing page where every step flows logically from the la
 I aimed to match the design closely while ensuring full responsiveness across all devices. I hope the code speaks for my approach, and if not — at least this README didn't bore you. 😏
 
 Contact
+Live demo: https://landing-79r4wpl3e-ankubs-projects.vercel.app
 Feel free to reach out via Telegram: @AnKubLXXXVIII
